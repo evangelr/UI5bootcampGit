@@ -1,0 +1,33 @@
+<mvc:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" controllerName="sap.ui.bootcampwebapp.controller.App">
+	<VBox>
+		<Text text="Username"/>
+		<Input value="{/field/username}" description="Hello {/field/username}!" width="40%" valueLiveUpdate="true" type="Text" placeholder="Input Username" maxLength="8" id="username"/>
+		<Text text="Password"/>
+		<Input type="Password" placeholder="Enter your Password" maxLength="10" width="20%" id="password"/>
+		<Button  text="{i18n>loginButtonText}" press="onLoginPress"/>
+	</VBox>
+</mvc:View>
+ 
+<!--xmlns:html="http://www.w3.org/1999/xhtml">-->
+<!--<Text text = "Hello World"/>-->
+<!--<App>-->
+<!--<pages>-->
+<!--<Page title="Title">-->
+<!--<content></content>-->
+<!--// 		new sap.m.Input({-->
+<!--// 			type: "Text",-->
+<!--// 			width: "50%"-->
+<!--// 		}),-->
+<!--// 		new sap.m.Text({-->
+<!--// 			text: "Password"-->
+<!--// 		}),-->
+<!--// 		new sap.m.Input({-->
+<!--// 			type: "Text",-->
+<!--// 			width: "50%"-->
+<!--// 		}),-->
+<!--// 		new sap.m.Button({-->
+<!--// 			text: "Login"-->
+<!--// 		}),-->
+<!--</Page>-->
+<!--	</pages>-->
+<!--</App>-->
